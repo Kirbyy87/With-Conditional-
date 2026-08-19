@@ -93,7 +93,7 @@ int main()
 
     cout << "                    " << endl;
 
-    if (finalgrade>=95 and finalgrade<=100) {
+if (finalgrade>=95 and finalgrade<=100) {
         cout<< "\tRemark: Excellent" << endl;
     }
     else if(finalgrade>=90 and finalgrade<=94){
@@ -117,6 +117,8 @@ int main()
     else if(finalgrade>=101){
         cout<< "\tRemark: Up Overflow" << endl;
     }
+
+cout << "\tRemark: " << remark << endl;
 
     cout << "_________________________________________" << endl;
 
